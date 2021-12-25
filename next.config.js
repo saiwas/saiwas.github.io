@@ -1,3 +1,6 @@
 module.exports = {
-  reactStrictMode: true,
+  images: {
+    path: 'https://saiwas.github.io/',
+    loader: 'imgix',
+  },
 }

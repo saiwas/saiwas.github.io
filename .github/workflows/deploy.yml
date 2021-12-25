@@ -20,6 +20,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install packages
         run: npm ci
+      - name: Unit Test
+        run: npm test
       - name: Build project
         run: npm run build
       - name: Export static files
