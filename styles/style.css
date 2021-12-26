@@ -1023,14 +1023,14 @@ input:focus, textarea:focus {
   left: 0;
   position: absolute;
   right: 0;
-  padding: 20px 0;
+  padding: 10px 0;
   top: 0;
   z-index: 99999;
 }
 .header-section.stick {
   -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-  background-color: #ffffff;
+  background-color: #CCD1D1;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   position: fixed;
@@ -1045,43 +1045,7 @@ input:focus, textarea:focus {
   display: block;
     position: relative;
 }
-.logo a img {}
-.logo a .sticky-logo {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    opacity: 0;
-}
 
-.stick .logo a {
-  width: 116px;
-}
-.stick .logo a img {
-    opacity: 0;
-}
-.stick .logo a .sticky-logo {
-    opacity: 1;
-}
-
-.buy-btn {
-  border: 2px solid #ffffff;
-  border-radius: 50px;
-  color: #ffffff;
-  display: block;
-  font-size: 13px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 24px;
-  margin-top: 0;
-  padding: 6px 35px;
-  text-transform: uppercase;
-}
-.stick .buy-btn {
-  border: 2px solid #0056ff;
-  color: #0056ff;
-    margin-top: 3px;
-}
 .buy-btn:hover {
   background-color: #0056ff;
   border-color: #0056ff;
@@ -1220,9 +1184,10 @@ input:focus, textarea:focus {
 }
 
 .footer-section {
-  background-color: #0056ff;
+  min-height: 5em;
+  background-color: #34495E;
 }
-.footer-section h1 {
+/* .footer-section h1 {
   color: #fff;
   display: block;
   float: left;
@@ -1233,7 +1198,7 @@ input:focus, textarea:focus {
   color: #0056ff;
   border-color: #ffffff;
   background-color: #ffffff;
-}
+} */
 
 
 .also-like  .demo-item .title {

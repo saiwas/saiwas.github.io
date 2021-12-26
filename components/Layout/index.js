@@ -1,9 +1,9 @@
 import Header from './Header'
 import HeroHeader from './HeroHeader'
-import ContainerHeader from './ContainerHeader'
+import StickyHeader from './StickyHeader'
 
 export {
     Header,
     HeroHeader,
-    ContainerHeader
+    StickyHeader
 }
