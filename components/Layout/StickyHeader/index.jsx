@@ -7,7 +7,7 @@ const StickyHeader = () => {
     const headerRef = useRef()
     const toggleSticky = useCallback(() => {
         const { top } = headerRef.current.getBoundingClientRect()
-        const showOutBottom = screen.height / 3
+        const showOutBottom = screen.height / 4
         if (timeout) {
             clearTimeout(timeout)
         }
