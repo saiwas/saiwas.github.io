@@ -38,11 +38,12 @@ const ItemCard = ({
 }
 
 const Section = ({
+    index,
     title,
     items = []
 }) => {
     return(
-        <div className="section pt-120 pb-70">
+        <div className={"section pt-120 pb-70"} style={index % 2 == 0  ? {backgroundColor: "#D4E6F1"} : {}}>
             <div className="container">
                 <div className="row">
                     <Title text={title}/>

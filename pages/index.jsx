@@ -41,7 +41,7 @@ export default function Home() {
         <Header title="Johnny Personal Blog - HOME" />
         <StickyHeader />
         <HeroHeader />
-        { data.map((section, index) => <Section key={index} {...section} />) }
+        { data.map((section, index) => <Section key={index} index={index} {...section} />) }
         <Footer />
     </>
   )

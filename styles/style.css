@@ -637,17 +637,6 @@ input:focus, textarea:focus {
   width: 100%;
 }
 
-/*-- Background Color --*/
-.bg-gray {
-  background-color: #f6f6f6;
-}
-.bg-dark {
-  background-color: #1a1a1a;
-}
-.bg-light-dark {
-  background-color: #232323;
-}
-
 /*-- Button --*/
 .btn {
   background-color: transparent;
@@ -1148,8 +1137,7 @@ input:focus, textarea:focus {
 }
 .section-item .background-image .image {
   width: 100%;
-  min-height: 26em;
-  height: 100%;
+  height: 26em;
   opacity: 0.9;
 }
 .section-item:hover .background-image i {
