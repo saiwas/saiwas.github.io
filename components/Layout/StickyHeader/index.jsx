@@ -6,14 +6,15 @@ const StickyHeader = () => {
     const [isSticky, setIsSticky] = useState(false);
     const headerRef = useRef()
     const toggleSticky = useCallback(() => {
-        const {top, bottom} = headerRef.current.getBoundingClientRect()
+        const { top } = headerRef.current.getBoundingClientRect()
+        const showOutBottom = screen.height / 3
         if (timeout) {
             clearTimeout(timeout)
         }
-        if (top <= 0 && document.documentElement.scrollTop > bottom + 10) {
-            timeout = (!isSticky && setTimeout(() => setIsSticky(true), 20))
+        if (top <= 0 && document.documentElement.scrollTop >= showOutBottom) {
+            timeout = (!isSticky && setTimeout(() => setIsSticky(true), 150))
         } else {
-            timeout = (isSticky && setTimeout(() => setIsSticky(false), 20))
+            timeout = (isSticky && setTimeout(() => setIsSticky(false), 150))
         }
     }, [isSticky]);
 
