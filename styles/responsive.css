@@ -3,25 +3,31 @@
 }
 
 /* Laptop Screen  */
-@media only screen and (min-width: 1171px) and (max-width: 1400px) {
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .hero-section {
+    padding: 250px 0 200px;
+  }
 }
 
-/* desktop :992px. */
-@media only screen and (min-width: 992px) and (max-width: 1169px) {
+/* desktop :1200px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
   .single-feature .content p {
     font-size: 14px;
+  }
+  .hero-section {
+    padding: 250px 0 200px;
   }
 }
 
 /* Tablet :768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-section {
+      padding: 200px 0 200px;
+  }
   .hero-content h1 {
     font-size: 30px;
   }
-  .demo-content h1 {
-    font-size: 30px;
-  }
-  .demo-item .image i {
+  .section-item .image i {
     height: 50px;
     line-height: 46px;
     width: 50px;
@@ -32,15 +38,21 @@
 }
 
 /* Large Mobile :480px. */
+
+@media (max-width: 767px) {
+
+}
 @media only screen and (max-width: 767px) {
   .container {
       width: 450px;
   }
   .hero-section {
-    padding: 150px 0 100px;
+      padding: 150px 0 100px;
   }
   .hero-content h1 {
-    font-size: 24px;
+      font-size: 25px;
+      line-height: 40px;
+      text-transform: inherit;
   }
   .hero-content h1 strong {
     font-size: 40px;
@@ -49,10 +61,7 @@
   .hero-content a {
     margin-top: 20px;
   }
-  .demo-content h1 {
-    font-size: 30px;
-  }
-  .section-title h1 {
+  .section-title {
     font-size: 30px;
   }
 }
