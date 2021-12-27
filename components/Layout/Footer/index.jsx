@@ -4,7 +4,7 @@ const Footer = () => {
             <div className="container">
                 <footer className="row" style={{ justifyContent: "center"}}>
                     <div>
-                        © 2021 Johnny - Blog
+                        © 2021 Johnny Zhang - Blog
                     </div>
                 </footer>
             </div>

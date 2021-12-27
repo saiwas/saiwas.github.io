@@ -638,6 +638,7 @@ input:focus, textarea:focus {
 }
 
 /*-- Button --*/
+
 .btn {
   background-color: transparent;
   border-radius: 0;
@@ -668,39 +669,6 @@ input:focus, textarea:focus {
   width: 21px;
   z-index: -1;
 }
-/*-- Button Animation --*/
-@-webkit-keyframes btnAnimationOut {
-  0% {
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-    width: 100%;
-  }
-  50% {
-    -webkit-transform: scaleY(0.02);
-    transform: scaleY(0.02);
-    width: 100%;
-  }
-  100% {
-    -webkit-transform: scaleY(0.02);
-    transform: scaleY(0.02);
-  }
-}
-@keyframes btnAnimationOut {
-  0% {
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-    width: 100%;
-  }
-  50% {
-    -webkit-transform: scaleY(0.02);
-    transform: scaleY(0.02);
-    width: 100%;
-  }
-  100% {
-    -webkit-transform: scaleY(0.02);
-    transform: scaleY(0.02);
-  }
-}
 /*-- Button Hover --*/
 .btn:hover {
   -webkit-transition: all 0.3s ease 0.3s;
@@ -710,39 +678,6 @@ input:focus, textarea:focus {
 .btn:hover::before {
   -webkit-animation: 0.5s linear 0s normal forwards 1 running btnAnimationIn;
   animation: 0.5s linear 0s normal forwards 1 running btnAnimationIn;
-}
-/*-- Button Hover Animation --*/
-@-webkit-keyframes btnAnimationIn {
-  0% {
-    -webkit-transform: scaleY(0.02);
-    transform: scaleY(0.02);
-  }
-  50% {
-    -webkit-transform: scaleY(0.02);
-    transform: scaleY(0.02);
-    width: 100%;
-  }
-  100% {
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-    width: 100%;
-  }
-}
-@keyframes btnAnimationIn {
-  0% {
-    -webkit-transform: scaleY(0.02);
-    transform: scaleY(0.02);
-  }
-  50% {
-    -webkit-transform: scaleY(0.02);
-    transform: scaleY(0.02);
-    width: 100%;
-  }
-  100% {
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-    width: 100%;
-  }
 }
 /*-- Button White --*/
 .btn.white {
@@ -776,6 +711,12 @@ input:focus, textarea:focus {
 }
 .btn.color::before {
   background-color: #0056ff;
+}
+.top-btn {
+  border: 2px solid #519f10;
+  color: #fff;
+  border-radius: 50px;
+  background-color: darkgrey;
 }
 
 /*-- Section Title --*/
