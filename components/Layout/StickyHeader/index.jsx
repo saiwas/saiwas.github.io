@@ -1,10 +1,11 @@
 import { useState, useEffect, useRef, useCallback } from "react";
+import Link from 'next/link'
 
 let timeout
 
 const StickyHeader = ({
     title = "Johnny Zhang",
-    TopBtn = () => (<a className="top-btn btn" href="#"> Blog </a>)
+    TopBtn = () => (<Link href="/"><a className="top-btn btn"> Blog</a></Link>)
 }) => {
     const [isSticky, setIsSticky] = useState(false);
     const headerRef = useRef()
