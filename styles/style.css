@@ -1036,6 +1036,9 @@ input:focus, textarea:focus {
   position: fixed;
   top: 0;
 }
+.header-section.none-stick {
+  display: none;
+}
 
 /*-- Logo --*/
 .logo {
@@ -1045,13 +1048,6 @@ input:focus, textarea:focus {
   display: block;
     position: relative;
 }
-
-.buy-btn:hover {
-  background-color: #0056ff;
-  border-color: #0056ff;
-  color: #ffffff;
-}
-
 
 .hero-section {
     padding: 300px 0 400px;
@@ -1187,19 +1183,6 @@ input:focus, textarea:focus {
   min-height: 5em;
   background-color: #34495E;
 }
-/* .footer-section h1 {
-  color: #fff;
-  display: block;
-  float: left;
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-.footer-section .buy-btn:hover {
-  color: #0056ff;
-  border-color: #ffffff;
-  background-color: #ffffff;
-} */
-
 
 .also-like  .demo-item .title {
   font-size: 16px;

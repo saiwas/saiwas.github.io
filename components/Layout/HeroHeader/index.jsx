@@ -9,7 +9,6 @@ const HeroHeader = () => {
                             Be familiar with React/Nodejs/Ruby/Golang etc development language.<br />
                             Be familiar with some devops skills, like the github, docker, k8s, jenkins pipline, terraform, ansible etc.
                         </p>
-                        {/* <a className="buy-btn" href="#"></a> */}
                     </div>
                 </div>
             </div>

@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Montserrat:100,200,300,300i,400,500,600,700,800,900|Playfair+Display:400,400i,700,700i,900,900i|Work+Sans:100,200,300,400,500,600,700,800,900');
 
-.buy-btn.top-btn {
-    background-color: #519f10;
-    border-color: #519f10;
-}
-
-.buy-btn:hover {
-    background-color: #519f10;
-    border-color: #519f10;
-    color: #ddd;
-}
-
 .demo-item .image::after {
     background-color: #519f10;
 }

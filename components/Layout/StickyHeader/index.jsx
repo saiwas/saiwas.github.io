@@ -23,7 +23,7 @@ const StickyHeader = () => {
     }, [toggleSticky]);
 
     return(
-        <div className={`${isSticky ? "stick" : ""} header-section section `} ref={headerRef}>
+        <div className={`${isSticky ? "stick" : "none-stick"} header-section section `} ref={headerRef}>
             <div className="container">
                 <div className="row" style={{display: "block"}}>
                     <div className="col-xs-12">
