@@ -1,12 +1,12 @@
 const Footer = () => {
     return (
-        <div className="footer-section section">
+        <div className="footer-section section pb-25 pt-25 gray-bg-2">
             <div className="container">
-                <div className="row">
-                    <div className="col-xs-12">
-                        <footer>Make your website come to life quickly.</footer>
+                <footer className="row" style={{ justifyContent: "center"}}>
+                    <div>
+                        © 2021 Johnny - Blog
                     </div>
-                </div>
+                </footer>
             </div>
         </div>
     )

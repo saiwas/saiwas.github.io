@@ -42,10 +42,6 @@
     line-height: 16px;
 }
 
-.logo {
-    padding: 0;
-}
-
 .hero-section.overlay::before {
     opacity: 0.5;
 }

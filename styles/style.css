@@ -1019,18 +1019,18 @@ input:focus, textarea:focus {
   02. Header Section
 --------------------------------------*/
 .header-section {
-  background-color: transparent;
+  background-color: darkslategrey;
   left: 0;
   position: absolute;
   right: 0;
   padding: 10px 0;
   top: 0;
   z-index: 99999;
+  height: 70px;
 }
 .header-section.stick {
   -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-  background-color: #CCD1D1;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   position: fixed;
@@ -1042,11 +1042,11 @@ input:focus, textarea:focus {
 
 /*-- Logo --*/
 .logo {
-  padding: 2px 0;
+  width: 4em;
 }
 .logo a {
   display: block;
-    position: relative;
+  position: relative;
 }
 
 .hero-section {
@@ -1180,8 +1180,10 @@ input:focus, textarea:focus {
 }
 
 .footer-section {
-  min-height: 5em;
-  background-color: #34495E;
+  background-color: darkslategrey;
+  height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .also-like  .demo-item .title {

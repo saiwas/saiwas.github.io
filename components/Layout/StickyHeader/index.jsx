@@ -30,7 +30,7 @@ const StickyHeader = () => {
                     <div className="col-xs-12">
                         <div className="logo float-left">
                             <a className="logo" href="https://github.com/saiwas">
-                                <img style={{height: "75px", width: "75px", borderRadius: "35px"}} src="https://avatars2.githubusercontent.com/u/3829027?s=460&v=4" alt="avatars" />
+                                <img style={{borderRadius: "35px"}} src="https://avatars2.githubusercontent.com/u/3829027?s=460&v=4" alt="avatars" />
                             </a>
                         </div>
                         <div className="float-right">
