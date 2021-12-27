@@ -33,10 +33,8 @@ const StickyHeader = () => {
                                 <img style={{borderRadius: "35px"}} src="https://avatars2.githubusercontent.com/u/3829027?s=460&v=4" alt="avatars" />
                             </a>
                         </div>
-                        <div style={{ float:"left", marginLeft: "30%", marginTop: "10px" }}>
-                            <p style={{fontWeight: "900", color: "white", fontSize: "45px" }}>
-                                Johnny Zhang
-                            </p>
+                        <div className="header-title">
+                            <p> Johnny Zhang </p>
                         </div>
                         <div className="float-right">
                             <a className="top-btn btn" href="#"> Blog </a>

@@ -717,6 +717,11 @@ input:focus, textarea:focus {
   color: #fff;
   border-radius: 50px;
   background-color: darkgrey;
+  width: 10em;
+  height: 3em;
+  top: -10%;
+  font-size: larger;
+  font-weight: 900;
 }
 
 /*-- Section Title --*/
@@ -964,7 +969,29 @@ input:focus, textarea:focus {
   top: 0;
 }
 .header-section.none-stick {
+  background-color: transparent;
+}
+.none-stick .logo,
+.none-stick .header-title {
   display: none;
+}
+
+.none-stick .top-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  line-height: 2em;
+}
+
+.header-title {
+  float: left;
+  margin-left: 30%;
+  margin-top: 10px
+}
+.header-title p {
+  font-weight: 900;
+  color: white;
+  font-size: 45px 
 }
 
 /*-- Logo --*/

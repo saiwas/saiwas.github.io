@@ -5,7 +5,7 @@
 /* Laptop Screen  */
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
   .hero-section {
-    padding: 250px 0 200px;
+    padding: 30% 0;
   }
 }
 
@@ -15,7 +15,7 @@
     font-size: 14px;
   }
   .hero-section {
-    padding: 250px 0 200px;
+    padding: 30% 0;
   }
 }
 
@@ -43,6 +43,25 @@
 
 }
 @media only screen and (max-width: 767px) {
+  .header-title {
+    margin-left: 10%;
+  }
+  .header-title p {
+    color: white;
+    font-size: 20px 
+  }
+  .top-btn {
+    width: 7em;
+    height: 3em;
+    padding: 0;
+    right: -20px;
+    top: 5px;
+    padding-top: 5%;
+  }
+  .logo {
+    width: 3em;
+  }
+
   .container {
       width: 450px;
   }
@@ -68,13 +87,22 @@
 
 /* small mobile :320px. */
 @media only screen and (max-width: 479px) {
+  .top-btn {
+    right: -5%;
+    font-size: 12px;
+    width: 6em;
+  }
+  .none-stick .top-btn {
+    font-size: 20px;
+    line-height: 1em;
+  }
+  .section-item {
+    min-height: 15em;
+    min-width: 15em;
+  }
   .container {
       width: 300px;
   }
-  .logo a {
-    width: 116px;
-  }
-
   .hero-section {
     padding: 150px 0 100px;
   }
