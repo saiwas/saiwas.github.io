@@ -45,8 +45,6 @@
 @media only screen and (max-width: 767px) {
   .header-title {
     margin-left: 10%;
-  }
-  .header-title p {
     color: white;
     font-size: 20px 
   }

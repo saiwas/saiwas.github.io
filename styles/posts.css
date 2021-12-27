@@ -1,0 +1,57 @@
+.breadcrumb-area {
+    color: white;
+    opacity: 0.8;
+    padding: 120px 0;
+}
+.breadcrumb-area h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+.breadcrumb-content ul {
+    background-color: crimson;
+} 
+.breadcrumb-content li {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+.breadcrumb-content li::before {
+    background-color: #aaaaaa;
+    content: "";
+    height: 3px;
+    margin: 11px 0;
+    position: absolute;
+    right: 3px;
+    top: 0;
+    transform: rotate(-67deg);
+    transition: all 0.4s ease 0s;
+    width: 14px;
+}
+.breadcrumb-content li a {
+    color: #fff;
+    margin-right: 20px;
+}
+.breadcrumb-content li.active::before {
+    transform: none;
+    transition: none;
+    height: 0
+}
+/* 
+.blog-details-wrapper {
+    margin-bottom: 80px;
+} */
+
+.bg-image-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.45)), url(/article-header.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 1400px) {
+}

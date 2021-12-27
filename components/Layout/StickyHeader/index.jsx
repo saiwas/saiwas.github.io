@@ -2,7 +2,10 @@ import { useState, useEffect, useRef, useCallback } from "react";
 
 let timeout
 
-const StickyHeader = () => {
+const StickyHeader = ({
+    title = "Johnny Zhang",
+    TopBtn = () => (<a className="top-btn btn" href="#"> Blog </a>)
+}) => {
     const [isSticky, setIsSticky] = useState(false);
     const headerRef = useRef()
     const toggleSticky = useCallback(() => {
@@ -12,9 +15,9 @@ const StickyHeader = () => {
             clearTimeout(timeout)
         }
         if (top <= 0 && document.documentElement.scrollTop >= showOutBottom) {
-            timeout = (!isSticky && setTimeout(() => setIsSticky(true), 150))
+            timeout = (!isSticky && setTimeout(() => setIsSticky(true), 100))
         } else {
-            timeout = (isSticky && setTimeout(() => setIsSticky(false), 150))
+            timeout = (isSticky && setTimeout(() => setIsSticky(false), 100))
         }
     }, [isSticky]);
 
@@ -34,10 +37,10 @@ const StickyHeader = () => {
                             </a>
                         </div>
                         <div className="header-title">
-                            <p> Johnny Zhang </p>
+                            {title}
                         </div>
                         <div className="float-right">
-                            <a className="top-btn btn" href="#"> Blog </a>
+                            <TopBtn />
                         </div>
                     </div>
                 </div>

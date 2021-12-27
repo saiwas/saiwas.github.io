@@ -649,7 +649,7 @@ input:focus, textarea:focus {
   letter-spacing: 0.4px;
   line-height: 23px;
   overflow: hidden;
-  padding: 9px 50px;
+  padding: 7% 50px;
   position: relative;
   text-transform: uppercase;
   z-index: 1;
@@ -719,7 +719,6 @@ input:focus, textarea:focus {
   background-color: darkgrey;
   width: 10em;
   height: 3em;
-  top: -10%;
   font-size: larger;
   font-weight: 900;
 }
@@ -986,12 +985,16 @@ input:focus, textarea:focus {
 .header-title {
   float: left;
   margin-left: 30%;
-  margin-top: 10px
-}
-.header-title p {
+  padding-top: 10px;
   font-weight: 900;
   color: white;
-  font-size: 45px 
+  font-size: 35px;
+  width: 25%;
+  height: 2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
 }
 
 /*-- Logo --*/
