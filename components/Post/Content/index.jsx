@@ -1,4 +1,4 @@
-const Content = () => {
+const Content = ({ post }) => {
     return(
         <div className="blog-page-area">
             <div className="container">

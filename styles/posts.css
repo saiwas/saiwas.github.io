@@ -55,29 +55,13 @@
 }
 
 @media only screen and (min-width: 1400px) {
+    .blog-details-wrapper {
+        margin: 0 -20% 0 -10%;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .breadcrumb-area h1 {
-        font-size: 4em;
-    }
-    .breadcrumb-content li {
-        font-size: 2em;
-    }
-    .breadcrumb-content ul {
-        height: 4em;
-        padding-top: 1em;
-    }
-
     .blog-details-wrapper {
         margin-right: -50%;
-    }
-    .blog-details-wrapper p {
-        font-size: 2em;
-        line-height: 2em;
-    }
-    .blog-details-wrapper h2 {
-        font-size: 3em;
-        font-weight: 500;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
